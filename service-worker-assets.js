@@ -281,6 +281,10 @@
       "url": "Portfolio2.styles.css"
     },
     {
+      "hash": "sha256-F\/QNh9EkvVQuZ824\/j2BoA+\/JannApm1ejxbOATEhjg=",
+      "url": "404.html"
+    },
+    {
       "hash": "sha256-HagYR3WE6YIMEn19qgPZBy48O6JZmDpp5W5wN\/TGIB8=",
       "url": "css\/app.css"
     },
@@ -469,7 +473,7 @@
       "url": "images\/Welcome\/04.png"
     },
     {
-      "hash": "sha256-JP\/gqq9KJkRF++ozaCmPQHiZ2t6tEKfd39CAL7VBBQM=",
+      "hash": "sha256-piWcvzd4Kq+M7AT51XiI\/72os27KNV7jGaYRNjgWxfM=",
       "url": "index.html"
     },
     {
@@ -477,5 +481,5 @@
       "url": "manifest.json"
     }
   ],
-  "version": "sp8lzrKA"
+  "version": "aLhFZuGn"
 };
