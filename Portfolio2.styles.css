@@ -22,6 +22,47 @@ footer[b-wmgaazne9s]{
     color: var(--primary-color-contrast);
     transition: 0.4s all ease-out;
 }
+/* /Components/Misc/Carousel.razor.rz.scp.css */
+.carrusel-container[b-0j8laza15y]{
+    display:grid;
+    grid-template-columns:0.05fr 0.9fr 0.05fr;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.carrusel-controller[b-0j8laza15y]{
+    font-size: 46pt;
+    text-align:center;
+    transition: 0.4s all ease-out;
+}
+
+.carrusel-controller:hover[b-0j8laza15y]{
+    color: lightblue;
+}
+
+.carrusel-controller:active[b-0j8laza15y] {
+    color: var(--primary-color-contrast);
+}
+
+
+.carrusel[b-0j8laza15y] {
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr 0.3fr;
+    min-height: 500px;
+    gap:15px;
+    align-items:center;
+    justify-content:center;
+}
+
+@media only screen and (max-width:1100px){
+    .carrusel-item-temp[b-0j8laza15y]{
+        display:none;
+    }
+    .carrusel[b-0j8laza15y] {
+        grid-template-columns: 0.7fr;
+        
+    }
+}
 /* /Components/Misc/Divider.razor.rz.scp.css */
 .divider[b-u26qf55ck7]{
     display:grid;
@@ -247,6 +288,21 @@ footer[b-wmgaazne9s]{
 /* /Pages/About.razor.rz.scp.css */
 .about[b-2dt3hbalnd]{
     font-family:"Kanit" !important;
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:768px){
+    p[b-2dt3hbalnd]{
+        font-size: 1.4em;
+    }
+    h5[b-2dt3hbalnd], h3[b-2dt3hbalnd]{
+        font-size:1.6em;
+    }
+    .about[b-2dt3hbalnd] {
+        width: 70%;
+        margin: 0 0 0 25%;
+    }
 }
 /* /Pages/index.razor.rz.scp.css */
 img[b-51x31rgxrd] {
@@ -271,9 +327,47 @@ img[b-51x31rgxrd] {
     justify-items:center;
 }
 
-.index[b-51x31rgxrd]{
-    font-family:"Kanit" !important;
+.index[b-51x31rgxrd] {
+    font-family: "Kanit" !important;
+    width: 80%;
+    margin: 0 auto;
 }
+
+@media only screen and (max-width:768px) {
+    p[b-51x31rgxrd] {
+        font-size: 1.4em;
+    }
+
+    h5[b-51x31rgxrd], h3[b-51x31rgxrd] {
+        font-size: 1.6em;
+    }
+
+    .index[b-51x31rgxrd] {
+        width: 70%;
+        margin: 0 0 0 20%;
+    }
+}
+
+    /*.about {
+    font-family: "Kanit" !important;
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:768px) {
+    p {
+        font-size: 1.4em;
+    }
+
+    h5, h3 {
+        font-size: 1.6em;
+    }
+
+    .about {
+        width: 70%;
+        margin: 0 0 0 25%;
+    }
+}*/
 /* /Pages/Movies/MovieResult.razor.rz.scp.css */
 .movie-result[b-c46jw2qomp]{
     display:grid;
