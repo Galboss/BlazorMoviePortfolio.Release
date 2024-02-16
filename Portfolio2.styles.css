@@ -253,6 +253,29 @@ footer[b-wmgaazne9s]{
     width: 0px;
     transition: 0.4s all ease-out;
 }
+
+
+@media only screen and (max-width:1000px) {
+    .navaside[b-85koohptc8] {
+        width: 8dvw;
+    }
+
+    .navaside-extended[b-85koohptc8] {
+        width: 90px;
+    }
+
+    .aside-title[b-85koohptc8] {
+        font-size: 1em;
+    }
+
+    [b-85koohptc8] .nav-item {
+        font-size: 0.7em;
+    }
+
+    .aside-title .letters[b-85koohptc8] {
+        width: 60px;
+    }
+}
 /* /MainLayout.razor.rz.scp.css */
 .page[b-i1efamzz1e]{
     display:flex;
@@ -266,7 +289,8 @@ footer[b-wmgaazne9s]{
     min-height: calc(100dvh - 100px);
     transition: 0.4s all ease-out;
     padding-top: 50px;
-    width: 100dvw;
+    width: 80dvw;
+    margin: 0 7dvw 0 10dvw;
 }
 .content[b-i1efamzz1e] {
     min-height: 100dvh;
@@ -288,23 +312,23 @@ footer[b-wmgaazne9s]{
 /* /Pages/About.razor.rz.scp.css */
 .about[b-2dt3hbalnd]{
     font-family:"Kanit" !important;
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
+    /*margin: 0 auto;*/
 }
 
 @media only screen and (max-width:768px){
     p[b-2dt3hbalnd]{
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
     h5[b-2dt3hbalnd], h3[b-2dt3hbalnd]{
         font-size:1.6em;
     }
-    .about[b-2dt3hbalnd] {
+ /*   .about {
         width: 70%;
         margin: 0 0 0 25%;
-    }
+    }*/
 }
-/* /Pages/index.razor.rz.scp.css */
+/* /Pages/Index.razor.rz.scp.css */
 img[b-51x31rgxrd] {
     object-fit: cover;
     border: 1px solid #d0d0d0;
@@ -329,22 +353,20 @@ img[b-51x31rgxrd] {
 
 .index[b-51x31rgxrd] {
     font-family: "Kanit" !important;
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
 }
 
 @media only screen and (max-width:768px) {
     p[b-51x31rgxrd] {
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
 
     h5[b-51x31rgxrd], h3[b-51x31rgxrd] {
         font-size: 1.6em;
     }
-
-    .index[b-51x31rgxrd] {
-        width: 70%;
-        margin: 0 0 0 20%;
+    .img-grid[b-51x31rgxrd]{
+       grid-template-columns: 1fr;
+       grid-template-rows: 0.5fr 0.5fr;
     }
 }
 

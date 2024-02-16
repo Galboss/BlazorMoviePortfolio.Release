@@ -277,11 +277,11 @@
       "url": "_framework\/System.Xml.XDocument.dll"
     },
     {
-      "hash": "sha256-92MxP3nzBlkodf0BDCfGuPb7vDaLa\/3BNJYkXdoxjZQ=",
+      "hash": "sha256-GYSTn2qM2B1EFexsDOvyZ03Rsx7qC\/0Gb\/CbDjzjZVs=",
       "url": "Portfolio2.styles.css"
     },
     {
-      "hash": "sha256-YNDcdW+zHHTPhFPhSz7bE8WB2hihEAxHVlyOkrlgAAo=",
+      "hash": "sha256-4VMmluElEeSr5Ki2\/p0gBCr1ZnJuge\/rBnipoWA6YvI=",
       "url": "404.html"
     },
     {
@@ -473,7 +473,7 @@
       "url": "images\/Welcome\/04.png"
     },
     {
-      "hash": "sha256-OgY3l8FNsuwnuwpIvmYilP8ed7RgR37UFIIdzRYMIPY=",
+      "hash": "sha256-ysF4m1EbfDSnkWfmFEeCq9YwxXZ\/BpwhskhH85QJ1+s=",
       "url": "index.html"
     },
     {
@@ -481,5 +481,5 @@
       "url": "manifest.json"
     }
   ],
-  "version": "fQUpWi1Z"
+  "version": "01LiJ0Fj"
 };
