@@ -6,6 +6,7 @@ footer[b-wmgaazne9s]{
     color:white;
     position:relative;
     font-family:"Kanit";
+    min-width:100dvw;
 }
 [b-wmgaazne9s] .brand-footer {
     text-decoration: none;
@@ -60,7 +61,20 @@ footer[b-wmgaazne9s]{
     }
     .carrusel[b-0j8laza15y] {
         grid-template-columns: 0.7fr;
-        
+        gap:0px;
+    }
+    .carrusel-container[b-0j8laza15y] {
+        grid-template-columns: 0.005fr 0.95fr 0.005fr;
+    }
+    
+}
+
+@media only screen and (max-width:600px){
+    .carrusel[b-0j8laza15y]{
+        grid-template-columns:0.95fr;
+    }
+    .carrusel-controller[b-0j8laza15y] {
+        font-size: 1.5em;
     }
 }
 /* /Components/Misc/Divider.razor.rz.scp.css */
@@ -290,10 +304,11 @@ footer[b-wmgaazne9s]{
     transition: 0.4s all ease-out;
     padding-top: 50px;
     width: 80dvw;
-    margin: 0 7dvw 0 10dvw;
+    margin: 0 7dvw 0 12dvw;
 }
 .content[b-i1efamzz1e] {
     min-height: 100dvh;
+
 }
 
 [b-i1efamzz1e] hr{
@@ -308,6 +323,11 @@ footer[b-wmgaazne9s]{
 [b-i1efamzz1e] .form-control{
     background-color: rgba(0,0,0,0);
     transition: 0.4s all ease-out;
+}
+@media only screen and (max-width:1000px){
+    .main-content[b-i1efamzz1e] {
+        margin: 0 5dvw 0 15dvw;
+    }
 }
 /* /Pages/About.razor.rz.scp.css */
 .about[b-2dt3hbalnd]{
@@ -420,6 +440,15 @@ img[b-51x31rgxrd] {
     font-style: italic;
     margin: auto 0 !important;
 }
+
+@media only screen and (max-width:700px){
+    .movie-result[b-c46jw2qomp]{
+        grid-template-columns:1fr;
+    }
+    .image-container img[b-c46jw2qomp] {
+        border-radius: 15px;
+    }
+}
 /* /Pages/Movies/MovieResultPlaceholder.razor.rz.scp.css */
 .movie-result[b-5m0xdt7c03]{
     display:grid;
@@ -465,5 +494,17 @@ img[b-51x31rgxrd] {
 .overlay p[b-bknlsiornd]{
     max-height:200px;
     font-size:0.9em;
-    overflow:hidden;
+    overflow-y:hidden;
+}
+
+@media only screen and (max-width:768px){
+    .overlay[b-bknlsiornd]{
+        overflow:hidden;
+    }
+    
+}
+@media only screen and (max-with:600px){
+    .overlay p[b-bknlsiornd] {
+        max-height: 150px;
+    }
 }
